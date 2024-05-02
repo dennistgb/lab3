@@ -31,10 +31,10 @@ def calculate_average_salary():
 
 def get_employees_by_dept(department):
     result = []
-
-    # Add your implementation from here
-
-
+    for employees in employee_data:
+        if employees["department"] == department:
+            result.append(employees)
+    print(result)
     return result
 
 def display_all_records():
