@@ -1,4 +1,4 @@
-import lab2.lab2 as lab2
+from lab2 import lab2 as lab2
 
 def test_min_max():
     result = []
